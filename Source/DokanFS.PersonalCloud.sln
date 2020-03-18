@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DokanFS.PersonalCloud", "DokanFS.PersonalCloud\DokanFS.PersonalCloud.csproj", "{8C5226B0-4C04-47EE-86D9-909112C221E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DokanFS.Core", "..\..\DokanFS\Source\DokanFS.Core\DokanFS.Core.csproj", "{2C990E8B-9CC6-427E-B1C1-0575D00073C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalCloud", "..\..\PersonalCloud\src\PersonalCloud\PersonalCloud.csproj", "{439D7FBC-E954-431B-BF1A-24F5A704336A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "..\..\PersonalCloud\src\Interface\Interface.csproj", "{330B326B-A715-41FE-A4C7-F28A824CA875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C5226B0-4C04-47EE-86D9-909112C221E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5226B0-4C04-47EE-86D9-909112C221E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5226B0-4C04-47EE-86D9-909112C221E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5226B0-4C04-47EE-86D9-909112C221E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C990E8B-9CC6-427E-B1C1-0575D00073C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C990E8B-9CC6-427E-B1C1-0575D00073C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C990E8B-9CC6-427E-B1C1-0575D00073C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C990E8B-9CC6-427E-B1C1-0575D00073C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439D7FBC-E954-431B-BF1A-24F5A704336A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439D7FBC-E954-431B-BF1A-24F5A704336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439D7FBC-E954-431B-BF1A-24F5A704336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439D7FBC-E954-431B-BF1A-24F5A704336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330B326B-A715-41FE-A4C7-F28A824CA875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330B326B-A715-41FE-A4C7-F28A824CA875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330B326B-A715-41FE-A4C7-F28A824CA875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330B326B-A715-41FE-A4C7-F28A824CA875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F278B4DD-8AB5-43BD-ADF8-0197BC2965C0}
+	EndGlobalSection
+EndGlobal
